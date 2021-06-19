@@ -1,0 +1,34 @@
+[
+    {
+        "id": 2,
+        "company_name": "Remotive",
+        "logo": "./images/photosnap.svg",
+        "new": true,
+        "position": "Lead Developer",
+        "role": "Software Development",
+        "level": "Senior",
+        "postedAT": "1d ago",
+        "contract": "Full Time",
+        "location": "USA Only",
+        "languages": [
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "id": 1,
+        "company_name": "Remotive",
+        "logo": "./images/photosnap.svg",
+        "new": true,
+        "position": "Lead Developer",
+        "role": "Software Development",
+        "level": "Senior",
+        "postedAT": "1d ago",
+        "contract": "Full Time",
+        "location": "USA Only",
+        "languages": [
+            "HTML",
+            "CSS"
+        ]
+    }
+]
