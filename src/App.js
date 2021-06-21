@@ -8,16 +8,23 @@ function App() {
     setJobs(data)
   }, []);
 
+  const filterByTag = (jobs) => {
+    return jobs.filter(job => {
+      return job
+    })
+  }
+
+  
   return (
-    <div className="App">
+    <div className="App px-3.5">
       {
         jobs.length === 0 ? (
           <p>
             Jobs are fetching
           </p>
-        ): (
+        ) : (
           jobs.map(job => (
-            <JobBoardComponent job={job} key={job.id}/>
+            <JobBoardComponent job={job} key={job.id} />
           ))
         )
       }
